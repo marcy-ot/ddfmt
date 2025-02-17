@@ -1,0 +1,12 @@
+sheet_name: sheet1
+overwrite_columns:
+  - column: 4
+    value: "2000"
+unique_columns: 
+  - 1
+  - 2
+  - 4
+file_split:
+  row: 2
+distinct_column: 2
+completion_message: "文字列を出力{$distinct_column}します。"
